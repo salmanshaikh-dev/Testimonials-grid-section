@@ -24,7 +24,6 @@
 
 .attribution-a:hover {
     background-color: rgb(241, 229, 214);
-    
 }
 
 
@@ -36,7 +35,6 @@ body {
     width: 1100px;
     margin-top: 100px;
     margin-inline: auto;
-
 }
 
 .main-container {
@@ -45,9 +43,6 @@ body {
     gap: 20px;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
-
-
-
 }
 
 .container-one {
@@ -58,8 +53,6 @@ body {
     border-radius: var(--border-radius);
 
     grid-column: span 2;
-
-
 }
 
 
@@ -69,8 +62,6 @@ body {
     padding: var(--padding);
     box-shadow: var(--box-shadow);
     border-radius: var(--border-radius);
-
-
 }
 
 .container-three {
@@ -80,9 +71,6 @@ body {
     border-radius: var(--border-radius);
 
     grid-row-start: 2;
-
-
-
 
 }
 
@@ -106,9 +94,4 @@ body {
     grid-row-start: 1;
     grid-row-end: 3;
     grid-column-start: 4;
-
-
-
-
-
 }
